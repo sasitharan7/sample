@@ -1,1 +1,2 @@
 This is Sample file to commit
+This is Sample file to commit after checking out
