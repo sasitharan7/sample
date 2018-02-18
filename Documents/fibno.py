@@ -7,4 +7,8 @@ def finbo(number):
         a,b = b, a+b
     return out
 print(finbo(10))
+print(finbo(10))
+print(finbo(10))
+print(finbo(10))
+print(finbo(10))
 
