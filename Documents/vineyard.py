@@ -1,4 +1,4 @@
-#import matplotlib.pyplot as plt
+#import /usr/local/lib64/python2.7/site-packages/matplotlib as plt
 
 def find_area(area_length,area_width):
     """This function is to calculate the area by multiplying length and width and returns the caulcated area in acres"""
@@ -169,13 +169,21 @@ total_leaf_thin = 0.0
 total_fruit_thin = 0.0
 total_harvest = 0.0
 wine_list = []
-zones = int(input("Enter number of Zones to calculate: "))
+#zones = int(input("Enter number of Zones to calculate: "))
+zones = 1
 while zones > 0:
+    '''
     length = float(input("enter Length of the area "))
     width = float(input("enter Width of the area "))
     row_space = int(input("enter space between two rows "))
     wine_space = int(input("enter space between two wines "))
     wine_verity = (input("enter the wine verity "))
+    '''
+    length = 300.0
+    width = 70.0
+    row_space = 10
+    wine_space = 6
+    wine_verity = "z1"
     area = find_area(length,width)
     total_area += area
     print("#" * 50)
