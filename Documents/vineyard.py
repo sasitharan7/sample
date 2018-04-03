@@ -251,6 +251,7 @@ while zones > 0:
     #display_wines(number_of_wines,row_space,wine_space,int(length),int(width),wine_verity)
     zones -= 1
     print("#" * 50)
+'''
 print("Total area planted in acres is %.2f" %(total_area))
 print("Total number of wines planted is %2d" %(total_number_of_wines))
 print("total time to do strip spray ")
@@ -280,4 +281,4 @@ sec_to_time(total_fruit_thin)
 print("total time to do harvest ")
 sec_to_time(total_harvest)
 print("#" * 50)
-
+'''
