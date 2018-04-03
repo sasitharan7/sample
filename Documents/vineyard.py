@@ -75,13 +75,13 @@ def time_to_prune(wine_list):
 def time_to_wire_down(wine_list):
     wire_down = 0.0
     time_per_down = 60
-    wire_down = time_per_down * (len(wine_list)/2)
+    wire_down = time_per_down * (len(wine_list)/3)
     return(wire_down)
 
 def time_to_wire_up(wine_list):
     wire_up = 0.0
     time_per_up = 240
-    wire_up = time_per_up * (len(wine_list)/2)
+    wire_up = time_per_up * (len(wine_list)/3)
     return(wire_up)
 
 def time_to_check_irrigation(wine_list):
